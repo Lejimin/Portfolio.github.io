@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: 0px; width: 100%; height: 1380px; background-color: #313030;}
+        #headimg{width: 100%; height: 840px; z-index: 3;}
+        nav{width: 100%; height: 760px; position: absolute; top: 0px; left: 0px;}
+        #logo>a{color: #E50914; width: 180px; height: 40px; font-size: 45px; margin: 10px 50px;text-decoration: none;}
+       
+        
+        #loginbox{width: 500px; height: 600px; position: absolute; top: 150px; left: 36%; background-color: rgb(0, 0, 0, 0.7); border-radius: 10px;} 
+        #loginbox>h1{color: white; margin-left: 60px; margin-top: 60px;}
+        #logd1{width: 380px; height: 160px; position: relative; left:60px;}
+        #logd1>input{width: 370px; height: 50px; margin: 10px 2px; text-align: left; background-color: #313030; color: lightgray; border: none; border-radius: 7px;}
+        #logd2{width: 380px; height: 90px; position: relative; left: 60px;}
+        #logbtn{width: 370px; height: 50px; background-color: red; color: white; margin-top: 10px; border: none; border-radius: 7px; font-size: 20px; font-weight: bold;}
+        #d2sub{margin-top: 7px;}
+        #ch{color: lightgray; display: inline;}
+        #d2sub>a{text-decoration: none; color: lightgray; margin-left: 60px;}
+        #logd3{width: 380px; height: 90px; position: relative; top: 20px; left: 60px; color: lightgray;}
+        #logp>a{text-decoration: none;}
+        #logp1{color: white; font-size: 18px;}
+        #logp2{color:dodgerblue; font-size: 13px;}
+
+        td{width: 200px; height: 40px;}
+        td>a{color: gray; font-size: 12px; text-decoration: none;}
+        #fd{background-color: black; width: 100%; height: 540px; border: 1px solid black;}
+        #fdp1{color: gray; margin-left: 400px; margin-top: 50px;}
+        #foottbl{margin-left: 400px;}
+        #footsel{background-color: #00000066; color: white; width: 160px; height: 50px; padding: 8px 22px; font-size: 18px; font-weight: bold; margin-left: 400px; margin-top: 30px;}
+        #fp{color: gray; font-size: 9px; margin-left: 400px; margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+             <img src="img/main.jpg" id="headimg">
+        </header>
+         <nav>
+             <h1 id="logo"><a href="#">NETFLIX</a></h1> 
+         </nav>
+    
+
+         <content>
+            <div id="loginbox">
+                <h1>로그인</h1>
+                <div id="logd1">
+                    <input type="text" value="이메일 주소 또는 전화번호">
+                    <input type="password" value="비밀번호">
+                </div>
+                <div id="logd2">
+                    <input type="submit" value="로그인" id="logbtn">
+                    <div id="d2sub">
+                        <input type="checkbox"><p id="ch">로그인 정보 저장</p>
+                        <a href="#">도움이 필요하신가요?</a>
+                    </div>
+                </div>
+                <div id="logd3">
+                    <p id="logp">Netflix 회원이 아닌가요? <a href="#" id="logp1"><b>지금 가입하세요</b></a>
+                        <br><br>이 페이지는 Google reCAPTCHA의 보호를 받아
+                        <br>사용자가 로봇이 아님을 확인합니다.<a href="#" id="logp2">자세히 알아보기</a>
+                    </p>
+                </div>
+            </div>
+         </content>
+
+
+
+         <footer>
+            <div id="fd">
+                <p id="fdp1">질문이 있으신가요?문의 전화: 080-001-9587</p>
+                <table id="foottbl">
+                    <tr>
+                        <td><a href="#">자주 묻는 질문</td></a>
+                        <td><a href="#">고객 센터</td></a>
+                        <td><a href="#">이용약관</td></a>
+                        <td><a href="#">개인정보</td></a>
+                    </tr>
+                    <tr>
+                        <td><a href="#">쿠키 설정</td></a>
+                        <td><a href="#">회사 정보</td></a>
+                    </tr>
+                </table>
+
+                <select id="footsel">
+                    <option><b>한국어</b></option>
+                    <option><b>English</b></option>
+                </select>
+
+                <p id="fp">넷플릭스 대한민국<br><br>
+
+                    넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 080-001-9587<br>
+                    대표: 레지널드 숀 톰프슨<br>
+                    이메일 주소: korea@netflix.com<br>
+                    주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161<br>
+                    사업자등록번호: 165-87-00119<br>
+                    클라우드 호스팅: Amazon Web Services Inc.<br>
+                    공정거래위원회 웹사이트</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
