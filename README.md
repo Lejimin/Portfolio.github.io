@@ -10,5 +10,6 @@
 - Side Projects
 - My Stie
 - Contact
-
+<p align="center">
  <img src="https://github.com/congchu/web-porfolio/blob/main/demo/이지민.gif?raw=true"/>
+</p>
