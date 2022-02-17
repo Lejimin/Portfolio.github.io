@@ -11,5 +11,5 @@
 - My Stie
 - Contact
 <p align="center">
- <img src="https://github.com/congchu/web-porfolio/blob/main/demo/이지민.gif?raw=true"/>
+ <img src="https://github.com/Lejimin/Portfolio.github.io/blob/main/demo/이지민.gif?raw=true"/>
 </p>
