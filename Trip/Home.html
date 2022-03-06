@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        #content{margin-top: 10px;}
+        #contimg1{width: 100%; height: 700px;}
+        #contimg2{width: 100%; height: 700px;}
+        #contimg3{width: 100%; height: 700px;}
+        #contimg4{width: 100%; height: 700px;}
+        #contentbar{padding: 0px; height: 59px; width: 100%; margin-top: -10px;}
+        #contentbar>label{margin-left: 420px;}
+        #contentbar>input{margin: 0px 20px;}
+        #content2{margin-top: 50px;}
+        .card>img{width: 400px; height: 250px;}
+        #footer{width: 100%; height: 400px; background-color: #64b4c2; margin-top: 10px;}
+        #foo1{width: 500px; height: 200px; position: relative; top: 80px;}
+        #foo1>p{color: white; text-align: center; font-size: 20px;}
+        #fooname{font-size: 35px;}
+        #logo{margin-top: -150px; margin-left: 730px;}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-expand-lg" class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">GoGo여행사</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">가이드추천</a></li>
+                      <li><a class="dropdown-item" href="#">가이드일정</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">공지사항</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div id="content">
+      <div id="contentbar" class="p-3 mb-2 bg-info bg-gradient bg-opacity-50 text-dark">
+        <label>조건 검색 : </label>&nbsp;<input type="text" value="국가" class="border border-success">&nbsp;<input type="date" value="날짜" class="border border-success"> - <input type="date" value="날짜" class="border border-success"> 
+        <button type="button" class="btn btn-outline-primary" style="height: 35px; width: 70px;">검색</button>
+      </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="img/cont1.jpg" class="d-block w-100" id="contimg1">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/cont2.jpg" class="d-block w-100" id="contimg2">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/cont3.jpg" class="d-block w-100" id="contimg3">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/cont4.png" class="d-block w-100" id="contimg4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div id="content2">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+            <div class="card">
+                <img src="img/cont1.jpg" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">볼리비아</h5>
+                <p class="card-text">주요여행지: <br>라파스, 코차밤바, 산타 크루즈, 타리, 우유니 사막, 티티카카 호수</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="img/cont2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">샌프란시스코</h5>
+                <p class="card-text">주요여행지: <br>금문교, 페리 빌딩 마켓플레이스, 피어39, 골든 게이트 국립 보양지</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="img/cont3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">몽골</h5>
+                <p class="card-text">주요여행지: <br>울란바토르, 홉스굴 호, 테를지, 홍고린엘스, 욜링암, 바양작</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="img/cont4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">파리</h5>
+                <p class="card-text">주요여행지: <br>에펠탑, 루브르 박물관, 노트르담 대성당, 오르세 미술관</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="foo1">
+            <p id="fooname">GoGo여행사</p><br><p>대구광역시 수성구 여행동123<br>Call: 053-345-1234<br>Email: GoGoTrip@naver.com</p>
+        </div>
+        <div id="logo">
+          <img src="img/logo.PNG">
+        </div>
+    </div>
+</body>
+</html>
